@@ -40,7 +40,6 @@ function buildYearTicks(minTime, maxTime) {
   const maxYear = new Date(maxTime).getFullYear();
   const ticks = [];
   for (let y = minYear; y <= maxYear; y++) {
-    // Use the start of each year as the "tick" time
     ticks.push(new Date(y, 0, 1).getTime());
   }
   return ticks;
@@ -180,7 +179,6 @@ const ChartsInfo = () => {
 
   /**
    * Filter records to the chosen date range (or all if none chosen).
-   * We use useMemo so we don't recalc on every render.
    */
   const filteredRecords = useMemo(() => {
     if (!records.length) return [];

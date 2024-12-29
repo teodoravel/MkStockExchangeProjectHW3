@@ -34,6 +34,14 @@ const Home = () => {
     navigate("/chartsinfo", { state: { publisher: selectedPublisher } });
   };
 
+  // NEW: Navigate to Technical Analysis
+  const goToTechnicalAnalysis = () => {
+    if (!selectedPublisher) return;
+    navigate("/technical-analysis", {
+      state: { publisher: selectedPublisher },
+    });
+  };
+
   return (
     <div style={{ padding: "1rem" }}>
       <h1>Macedonian Stock Exchange Analysis</h1>
@@ -61,6 +69,20 @@ const Home = () => {
           onClick={goToChartsInfo}
         >
           Go to Charts & Info
+        </button>
+
+        <button
+          style={{
+            backgroundColor: "#555",
+            color: "#fff",
+            padding: "0.5rem 1rem",
+            border: "none",
+            borderRadius: "4px",
+            cursor: "pointer",
+          }}
+          onClick={goToTechnicalAnalysis}
+        >
+          Technical Analysis
         </button>
       </div>
     </div>

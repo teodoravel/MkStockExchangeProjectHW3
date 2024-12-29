@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import ChartsInfo from "./pages/ChartsInfo";
 import Contact from "./pages/Contact";
+// REPLACE old import with new
+import TechnicalAnalysis from "./pages/TechnicalAnalysis";
 
 function App() {
   const appStyle = {
@@ -40,11 +42,16 @@ function App() {
           <Link to="/contact" style={linkStyle}>
             Contact
           </Link>
+          <Link to="/technical-analysis" style={linkStyle}>
+            Technical Analysis
+          </Link>
         </nav>
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/chartsinfo" element={<ChartsInfo />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/technical-analysis" element={<TechnicalAnalysis />} />
         </Routes>
       </Router>
     </div>
