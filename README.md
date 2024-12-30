@@ -2,7 +2,7 @@
 The video of the fully functioning app is located in Homework3(video).**
 
 
-Macedonian Stock Exchange Analysis Project Structure: 
+**Macedonian Stock Exchange Analysis Project Structure:**
 
 Homework 1
 Location: Homework1
@@ -16,7 +16,7 @@ Main components in src/pages/ (e.g., Home.js, ChartsInfo.js, TechnicalAnalysis.j
 Demo Video: (Stored under Homework3/)
 
 
-How to Set Up & Run the Project:
+**How to Set Up & Run the Project:**
 
 1. Prerequisites
    - Python 3.x (e.g., Python 3.10 or 3.11)
