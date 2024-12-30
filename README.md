@@ -25,7 +25,7 @@ How to Set Up & Run the Project:
 
 2. Clone or Download the Project
    git clone https://github.com/YourUser/YourRepo.git
-   # or download the ZIP and extract
+    ( or download the ZIP and extract )
    cd YourRepo
    (Adjust the URL to match your actual GitHub repository.)
 
@@ -35,7 +35,7 @@ How to Set Up & Run the Project:
      2) Run them 
         cd Homework1/filters
         python filter1.py
-        # which will automatically call filter2 and filter3
+        ( which will automatically call filter2 and filter3 )
    - This step sets up the DBs with the necessary stock data.
 
 4. Install & Run the Flask Backend
@@ -44,17 +44,17 @@ How to Set Up & Run the Project:
       pip install flask flask-cors requests pandas ta beautifulsoup4
    3) Launch the Flask server:
       python app.py
-      # Backend is now running at http://127.0.0.1:5000 (keep this terminal open)
+      ( Backend is now running at http://127.0.0.1:5000 (keep this terminal open) )
 
 5. Install & Run the React Frontend
    1) Open another terminal in the frontend folder (Homework2/tech_prototype/frontend)
    2) Install Node modules:
       npm install
-      # If needed, also run:
+       If needed, also run:
       npm install react-financial-charts d3-time-format d3-format recharts
    3) Start the React dev server:
       npm start
-      # Frontend is at http://localhost:3000
+      ( Frontend is at http://localhost:3000 )
 
 6. View & Interact with the Application
    - In your browser, visit http://localhost:3000 (frontend).
