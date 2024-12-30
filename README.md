@@ -29,7 +29,7 @@ How to Set Up & Run the Project:
    cd YourRepo
    (Adjust the URL to match your actual GitHub repository.)
 
-3. Run Filters to Populate Databases (Optional)
+3. Run Filters to Populate Databases
    - If you need to create or populate publishers.db and stock_data.db from scratch:
      1) Navigate to the filter scripts folder (e.g. Homework1/filters).
      2) Run them 
